@@ -5,7 +5,8 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-color: white;
+  background-color: rgb(46, 46, 46);
+  color: whitesmoke;
 }
 
 code {
@@ -15,8 +16,23 @@ code {
 nav .brand-logo {
   left: 15%;
 }
+.resume-container {
+  width: 50%;
+  margin: 0 auto;
+  font-size: 18px;
+}
 h1 {
   color: black;
+}
+h6 {
+  font-weight: bold; 
+  /* color: #D6FF79; */
+}
+.header.center a{
+  padding: 0 1em;
+}
+.programming-emperience .li a{
+  color: #3DBEFF;
 }
 .card .card-image img {
   width: 200px;

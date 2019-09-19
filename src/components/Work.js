@@ -26,7 +26,7 @@ class Work extends React.Component {
                 <div className='work container'>
                 <div className='project card grey darken-5' key={project.id}>
                     <div className="card-image">
-                        <img src={project.image} alt="Screenshot of app"></img>
+                        <img className="responsive-img"src={project.image} alt="Screenshot of app"></img>
                     </div>
                         <span className="card-title white-text">{project.name}</span>
                     <div className="card-content white-text"> 
