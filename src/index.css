@@ -12,8 +12,21 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
-
+nav .brand-logo {
+  left: 15%;
+}
 h1 {
   color: black;
 }
+.card .card-image img {
+  width: 200px;
+  margin: 20px;
+  top: 15px;
+}
+.card .card-title {
+  margin: 20px; 
+}
 
+.card .card-action :hover {
+  cursor: pointer;
+}

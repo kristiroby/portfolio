@@ -8,13 +8,13 @@ class Work extends React.Component {
         projects: [
             {
                 name: "Movie List",
-                image: {Movie},
+                image: Movie,
                 summary: "App built with html, css, jQuery, AJAX and the movieDB API",
                 link: "https://kristiroby.github.io/movie-app/"
             },
             {
                 name: "Stable Genius",
-                image: {Stable},
+                image: Stable,
                 summary: "App built using HTML, CSS, Javascript, Node.js, Mongoose, Express and EJS.",
                 link: "https://stable-genius.herokuapp.com/"
             }
@@ -23,17 +23,19 @@ class Work extends React.Component {
     render() {
         return (this.state.projects.map(project => {
             return (
-                <div className='card' key={project.id}>
+                <div className='work container'>
+                <div className='project card grey darken-5' key={project.id}>
                     <div className="card-image">
-                        <img src={project.image} alt="Screenshot of  app" width="90px" height="auto"></img>
-                        <span className="card-title">{project.name}</span>
+                        <img src={project.image} alt="Screenshot of app"></img>
                     </div>
-                    <div className="card-content"> 
+                        <span className="card-title white-text">{project.name}</span>
+                    <div className="card-content white-text"> 
                         <p>{project.summary}</p>
                     </div>
                     <div className="card-action">
-                        <Link to={project.link}>View App</Link>
+                        <a href={project.link}>View App</a>
                     </div>
+                </div>
                 </div>
             )
         }))
