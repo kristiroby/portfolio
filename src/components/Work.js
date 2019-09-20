@@ -23,8 +23,8 @@ class Work extends React.Component {
     render() {
         return (this.state.projects.map(project => {
             return (
-                <div className='work container'>
-                <div className='project card grey darken-5' key={project.id}>
+                <div className='work-container'>
+                <div className='project card grey darken-3' key={project.id}>
                     <div className="card-image">
                         <img className="responsive-img"src={project.image} alt="Screenshot of app"></img>
                     </div>
@@ -33,7 +33,7 @@ class Work extends React.Component {
                         <p>{project.summary}</p>
                     </div>
                     <div className="card-action">
-                        <a href={project.link}>View App</a>
+                        <a href={project.link} className="link teal-text">View App</a>
                     </div>
                 </div>
                 </div>

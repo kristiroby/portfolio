@@ -5,7 +5,7 @@ import Home from './components/Home'
 import Resume from './components/Resume'
 import Work from './components/Work'
 import Contact from './components/Contact'
-
+import Footer from './components/Footer'
 class App extends Component{
   render() {
     return (
@@ -16,7 +16,7 @@ class App extends Component{
           <Route path='/work' component={Work} />
           <Route path='/resume' component={Resume} />
           <Route path='/contact' component={Contact} />
-
+          <Footer />
         </div>
       </BrowserRouter>
     );

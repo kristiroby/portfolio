@@ -5,7 +5,6 @@ const Nav = () => {
     return (
         <nav className='navbar-fixed blue brighten'>
             <div className='container'>
-                <a href="#" className='brand-logo'>Kristi</a>
                 <ul className='right'>
                     <li><Link to='/'>Home</Link></li>
                     <li><Link to='/work'>Work</Link></li>
