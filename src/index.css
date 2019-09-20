@@ -5,9 +5,62 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: rgb(46, 46, 46);
+  color: whitesmoke;
 }
-
+footer {
+  position:fixed;
+  bottom:0;
+  left:0;
+  width:100%;
+}
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
+}
+nav .brand-logo {
+  left: 15%;
+}
+.resume-container {
+  width: 50%;
+  margin: 0 auto;
+  font-size: 18px;
+}
+.work-container {
+  width: 50%;
+  margin: 0 auto;
+  font-size: 18px;
+}
+.contact-container {
+  background-color: rgb(113, 118, 123);
+  color: black;
+  width: 50%;
+  margin: 0 auto;
+  font-size: 18px;
+  padding: 10px;
+}
+h1 {
+  color: black;
+}
+h6 {
+  font-weight: bold; 
+  /* color: #D6FF79; */
+}
+.header.center a{
+  padding: 0 1em;
+}
+.programming-emperience .li a{
+  color: #3DBEFF;
+}
+.card .card-image img {
+  width: 200px;
+  margin: 20px;
+  top: 15px;
+}
+.card .card-title {
+  margin: 20px; 
+}
+
+.card .card-action :hover {
+  cursor: pointer;
 }
